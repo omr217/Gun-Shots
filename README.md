@@ -80,7 +80,7 @@ Dense(16 - Softmax for classification)
 
 **Evaluation**
 
-  Accuracy is printed and plotted after training.\n
+  Accuracy is printed and plotted after training.
   Final test accuracy is printed.
 
 ##### ⚠️ Notes
