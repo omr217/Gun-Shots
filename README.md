@@ -63,27 +63,33 @@ Dense(16 - Softmax for classification)
 **Data Loading**
 
   Loads images using matplotlib.image.imread().
+  
   Reads class labels from XML using xml.etree.ElementTree.
 
 **Data Preprocessing**
 
   One-hot encodes class labels.
+  
   Splits dataset into training and testing (80/20 split).
 
 **Model Training**
 
   CNN compiled with categorical_crossentropy and Adam optimizer.
+  
   Data is augmented with ImageDataGenerator.
 
 **Evaluation**
 
   Accuracy is printed and plotted after training.
+  
   Final test accuracy is printed.
 
 ##### ⚠️ Notes
 
 Ensure all spectrograms have matching XML files.
+
 The image dimensions must be consistent across the dataset.
+
 Adjust the CNN architecture or hyperparameters for better accuracy.
 
 
